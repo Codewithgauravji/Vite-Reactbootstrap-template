@@ -5,6 +5,7 @@ import Aboutus from './Aboutus'
 import Services from './Services'
 import Teams from './Teams'
 import FAQ from './FAQ'
+import Usecallback from './Usecallback';
 
 function Home() {
     return (
@@ -15,6 +16,7 @@ function Home() {
             <Services />
             <Teams />
             <FAQ/>
+            <Usecallback/>
         </div>
     )
 }

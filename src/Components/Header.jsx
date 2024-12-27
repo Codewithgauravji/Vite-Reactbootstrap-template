@@ -22,6 +22,12 @@ function Header() {
                             <Nav.Link>Services</Nav.Link>
                             <Nav.Link as={Link} to="/signup">Signup</Nav.Link>
                             <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                            <Nav.Link as={Link} to="/task1">Task1</Nav.Link>
+                            <Nav.Link as={Link} to="/task2">Task2</Nav.Link>
+                            <Nav.Link as={Link} to="/task3">Task3</Nav.Link>
+                            <Nav.Link as={Link} to="/practice">Practice</Nav.Link>
+                            <Nav.Link as={Link} to="/metro">Metro</Nav.Link>
+                            {/* <Nav.Link as={Link} to="/dashboard">Dashboard</Nav.Link> */}
                         </Nav>
                         <Form className="d-flex">
                             <Form.Control
